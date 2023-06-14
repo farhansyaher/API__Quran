@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvLatinSurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Surah"
+        style="@style/TextAppearance.AppCompat.Title"/>
+
+    <TextView
+        android:id="@+id/tvArtiSurah"
+        android:layout_below="@id/tvLatinSurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arti Surah"/>
+
+    <TextView
+        android:id="@+id/tvArabSurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textDirection="anyRtl"
+        android:text="سورة"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
